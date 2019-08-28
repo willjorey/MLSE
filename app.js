@@ -47,7 +47,7 @@ var params = {
           trends.forEach(trend =>{
             stmt.run(trend.name, trend.url, trend.tweet_volume, element.name, date);
           })
-            //Finalize the statement and close the database
+            //Finalize the statement
             stmt.finalize(); 
         }else{
           console.log(err);
