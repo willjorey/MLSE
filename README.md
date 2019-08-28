@@ -1,4 +1,6 @@
 # MLSE
+Install the packages
+`npm install`
 
 To run the application type in the terminal
 
